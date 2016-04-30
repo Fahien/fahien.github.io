@@ -1,0 +1,28 @@
+# Site variables
+name: Fahien
+description: a heap of bits
+avatar: forum.indievault.it/user_avatar/forum.indievault.it/fahien/120/19183_1.png
+
+# Configuration
+permalink: /:year/:month/:day/:title/
+version: v1.2.0
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        css_class: 'highlight'
+
+sass:
+    style: :expanded
+
+gems:
+    - jekyll-sitemap
+    - jekyll-feed
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
