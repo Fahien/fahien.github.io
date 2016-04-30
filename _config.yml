@@ -2,6 +2,14 @@
 name: Fahien
 description: a heap of bits
 
+footer-links:
+    github: Fahien
+    twitter: Fahien
+    linkedin: antoniocaggiano
+    youtube: c/AntonioCaggiano
+    rss: 42
+
+    
 # Configuration
 permalink: /:year/:month/:day/:title/
 version: v1.2.0
