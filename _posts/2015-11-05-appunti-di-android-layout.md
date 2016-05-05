@@ -48,8 +48,9 @@ AdapterView. Android fornisce alcune sottoclassi di Adapter utili a seconda dei 
 
 * **ArrayAdapter**: si utilizza quando la sorgente dati è un _array_. Di default, ArrayAdapter crea una View per ogni elemento dell’array, invocandone il metodo toString() e piazzandone il contenuto in una [TextView](http://developer.android.com/reference/android/widget/TextView.html).
 
-```
-ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item1, myStringArray);
+```java
+ArrayAdapter<String> adapter = new ArrayAdapter<>(
+    this, android.R.layout.simple_list_item1, myStringArray);
 ListView listView = (ListView) findViewById(R.id.listview);
 listView.setAdapter(adapter)
 ```
@@ -60,13 +61,13 @@ listView.setAdapter(adapter)
 Un toast fornisce un semplice **feedback** a proposito di un’operazione in un piccolo _popup_. Occupa solo la quantità di spazio richiesta dal messaggio e l’Activity corrente rimane visibile ed interattiva. Svaniscono automaticamente dopo un _timeout_. Si crea attraverso il metodo statico [Toast.makeText()](http://developer.android.com/reference/android/widget/Toast.html#makeText%28android.content.Context,%20int,%20int%29) che prende tre parametri (context, messaggio e durata) e si mostra a
 schermo attraverso il metodo **show()**.
 
-```
+```java
 Toast.makeText(context, "text", Toast.LENGTH_SHORT)
 ```
 
 Si può riposizionare attraverso il metodo [setGravity()](http://developer.android.com/reference/android/widget/Toast.html#setGravity%28int,%20int,%20int%29) che accetta tre parametri (Gravity constant, x offset, y offset).
 
-```
+```java
 toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
 ```
 
