@@ -1,5 +1,5 @@
 ---
-layout: Android
+layout: android
 title: Appunti di Android&#58; Permissions
 category: Informatics
 tags: android, mobile, permissions
