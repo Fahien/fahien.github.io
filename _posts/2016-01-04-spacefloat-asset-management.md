@@ -24,6 +24,7 @@ public class SpaceFloatGame extends Game {
 	}
 }
 ```
+
 ## The Loading Screen
 
 A fundamental use case of the asset manager is in the **LoadingScreen**. With this technique you can load all assets within a directory while showing progress.
