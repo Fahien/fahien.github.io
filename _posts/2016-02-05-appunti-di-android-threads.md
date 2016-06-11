@@ -14,7 +14,7 @@ Per non bloccare il main thread, nel caso di operazioni non istantanee, si deve 
 *   [Activity.runOnUiThread(Runnable)](http://developer.android.com/reference/android/app/Activity.html#runOnUiThread%28java.lang.Runnable%29);
 *   [View.post(Runnable)](http://developer.android.com/reference/android/view/View.html#post%28java.lang.Runnable%29);
 *   [View.postDelayed(Runnable, long)](http://developer.android.com/reference/android/view/View.html#postDelayed%28java.lang.Runnable,%20long%29);
-*   [AsyncTask.onPostExecute(<T> result)](http://developer.android.com/reference/android/os/AsyncTask.html#onPostExecute%28Result%29);
+*   [AsyncTask.onPostExecute(\<T\> result)](http://developer.android.com/reference/android/os/AsyncTask.html#onPostExecute%28Result%29);
 
 ### AsyncTask
 
