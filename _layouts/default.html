@@ -27,9 +27,16 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-            <nav>
-                <a href="{{ site.baseurl }}/">Blog</a>
-                <a href="{{ site.baseurl }}/appunti-di-rete">Appunti di Rete</a>
+            <nav class="pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list">
+					<li class="pure-menu-item pure-menu-selected"><a href="{{ site.baseurl }}/" class="pure-menu-link">Blog</a></li>
+					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+						<a href="#" id="menuLink1" class="pure-menu-link">Appunti</a>
+						<ul class="pure-menu-children">
+							<li class="pure-menu-item"><a href="{{ site.baseurl }}/appunti-di-rete/" class="pure-menu-link">Rete</a></li>
+						</ul>
+					</li>
+				</ul>
             </nav>
         </header>
       </div>

@@ -110,6 +110,15 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  margin: 1.8em .8em;
+  border-left: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+  font-size: 22px;
+  font-style: italic;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -252,15 +261,6 @@ nav {
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
   .comments {
     margin-top: 10px;
   }
@@ -288,3 +288,8 @@ footer {
 @import "highlights";
 @import "svg-icons";
 @import "youtube";
+
+// Pure css menu dropdown
+@import "menus-core";
+@import "menus-horizontal";
+@import "menus-dropdown";
