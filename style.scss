@@ -233,7 +233,6 @@ nav {
   }
 
   a {
-    margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -291,5 +290,6 @@ footer {
 
 // Pure css menu dropdown
 @import "menus-core";
+@import "menus-skin";
 @import "menus-horizontal";
 @import "menus-dropdown";
