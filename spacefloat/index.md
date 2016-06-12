@@ -1,5 +1,5 @@
 ---
-layout: spacefloat
+layout: page
 title: Space Float
 image: spacefloat.png
 ---
