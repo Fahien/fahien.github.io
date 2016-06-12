@@ -5,7 +5,9 @@ category: Informatics
 tags: game, libgdx, screen, screen management, spacefloat
 image: spacefloat.png
 ---
-SpaceFloat is divided in well-defined screens encapsulated in the ScreenEnumerator, so it's very simple to retrieve a singleton of a screen: `ScreenEnumerator.INFO.getScreen();`.
+SpaceFloat is divided in well-defined screens encapsulated in the ScreenEnumerator, so it's very simple to retrieve a singleton of a screen:
+
+`ScreenEnumerator.INFO.getScreen();`.
 
 ```java
 public enum ScreenEnumerator {
