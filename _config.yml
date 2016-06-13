@@ -9,6 +9,8 @@ footer-links:
     youtube: c/AntonioCaggiano
     rss: 42
 
+# Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-68855324-1
     
 # Configuration
 permalink: /:year/:month/:day/:title/
