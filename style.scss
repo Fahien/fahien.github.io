@@ -304,3 +304,13 @@ footer {
 @import "menus-skin";
 @import "menus-horizontal";
 @import "menus-dropdown";
+
+// My pure menu
+
+.pure-menu-horizontal .pure-menu-children {
+  border: 1px solid #eee;
+}
+
+.pure-menu-item .pure-menu-item {
+  border-bottom: 1px solid #eee;
+}

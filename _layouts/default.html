@@ -1,76 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+	<head>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-    {% include meta.html %}
+	{% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  </head>
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+	</head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar">
-            <svg width="70" height="70">
-                <circle cx="35" cy="35" r="25" stroke="black" stroke_width="4" fill="black" />
-            </svg>
-          </a>
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+	<body>
+	<div class="wrapper-masthead">
+		<div class="container">
+		<header class="masthead clearfix">
+			<a href="{{ site.baseurl }}/" class="site-avatar">
+			<svg width="70" height="70">
+				<circle cx="35" cy="35" r="25" stroke="black" stroke_width="4" fill="black" />
+			</svg>
+			</a>
+			<div class="site-info">
+			<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+			<p class="site-description">{{ site.description }}</p>
+			</div>
 
-            <nav class="pure-menu pure-menu-horizontal">
-                <ul class="pure-menu-list">
-					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-						<a href="#" id="menuLink1" class="pure-menu-link">Appunti</a>
-						<ul class="pure-menu-children">
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/appunti-di-android/" class="pure-menu-link">Android</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/appunti-di-rete/" class="pure-menu-link">Rete</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/appunti-di-strutture-dati/" class="pure-menu-link">Strutture Dati</a></li>
-						</ul>
-					</li>
-					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-						<a href="#" id="menuLink2" class="pure-menu-link">Games</a>
-						<ul class="pure-menu-children">
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/spacefloat/" class="pure-menu-link">Space Float</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/vegolution/" class="pure-menu-link">Vegolution</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/western-lion/" class="pure-menu-link">Western Lion</a></li>
-						</ul>
-					</li>
-					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-						<a href="#" id="menuLink3" class="pure-menu-link">Lab</a>
-						<ul class="pure-menu-children">
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/devember/" class="pure-menu-link">Devember</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/flag-me/" class="pure-menu-link">Flag Me</a></li>
-							<li class="pure-menu-item"><a href="{{ site.baseurl }}/protofast/" class="pure-menu-link">ProtoFast</a></li>
-						</ul>
-					</li>
-				</ul>
-            </nav>
-        </header>
-      </div>
-    </div>
+			{% include nav.html %}
+			</header>
+		</div>
+	</div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+	<div id="main" role="main" class="container">
+		{{ content }}
+	</div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+	<div class="wrapper-footer">
+		<div class="container">
+		<footer class="footer">
+			{% include svg-icons.html %}
+		</footer>
+		</div>
+	</div>
 
-    {% include analytics.html %}
-  </body>
+	{% include analytics.html %}
+	</body>
 </html>
