@@ -13,7 +13,7 @@ Un frame Ethernet è suddiviso in sette campi:
 
 *   **Preambolo**: 7 byte, alternanza di `0` e `1`;
 *   **Delimitatore**: 1 byte, `10101011`;
-*   **Indirizzo destinatione**: 6 byte, indirizzo ethernet;
+*   **Indirizzo destinazione**: 6 byte, indirizzo ethernet;
 *   **Indirizzo mittente**: 6 byte, indirizzo ethernet;
 *   **Lunghezza o tipo**: 2 byte, specifica la lunghezza o il tipo dei dati trasportati;
 *   **Dati**: provenienti dal protocollo superiore, da minimo 46, per un corretto funzionamento del metodo [CSMA/CD](https://en.wikipedia.org/wiki/Carrier_sense_multiple_access_with_collision_detection), a 1500 byte;
