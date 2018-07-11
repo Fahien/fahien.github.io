@@ -5,7 +5,7 @@ category: Informatics
 tags: c, devember, local, socket
 image: devemberisnow.png
 ---
-[Yesterday](http://www.fahien.me/2015/12/02/devember-get-client-informations), we have seen how the server can retrieve the client address. Let's see today how an host can get the local address through the _getsockname_ function.
+[Yesterday]({{ site.baseurl }}/2015/12/02/devember-get-client-informations), we have seen how the server can retrieve the client address. Let's see today how an host can get the local address through the _getsockname_ function.
 
 ```c
 struct sockaddr_in6 cliaddr;

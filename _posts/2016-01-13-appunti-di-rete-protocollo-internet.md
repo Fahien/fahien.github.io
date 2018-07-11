@@ -23,7 +23,7 @@ L'intestazione di un datagram IPv4 ha una lunghezza variabile ed è composta dai
 *   **Somma di controllo**: 16 bit, dipende solo dall'intestazione, utile per la rilevazione di errori. L'intera intestazione viene suddivisa in blocchi da 16 bit che vengono sommati tra loro. Il risultato della somma viene complementato e inserito in questo campo.
 *   **Indirizzo IP del mittente**: 32 bit.
 *   **Indirizzo IP della destinazione**: 32 bit.
-*   **Opzioni**: da 0 a 20 byte, maggiori informazioni a questo [link](http://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml).
+*   **Opzioni**: da 0 a 20 byte, maggiori informazioni a questo [link](https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml).
 
 ## IPv6
 

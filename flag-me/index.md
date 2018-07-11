@@ -5,7 +5,7 @@ image: flag-me.jpg
 ---
 Since I started this blog, I began to wonder what would be the right way to internationalize it. Some people opt to create a dedicated site for each language and some people develop more sophisticated solutions. I made something quite simple: _Flag Me_. [Flag Me](https://wordpress.org/plugins/flag-me) is a _Wordpress Plugin_ which enables you to add a country flag before the title of your posts or pages in the sidebar. This makes it easier for visitors to understand the language in which it is written content.
 
-> If you like the plugin, feel free to support my work [donating via PayPal](http://www.fahien.me/donate).
+> If you like the plugin, feel free to support my work [donating via PayPal]({{ site.baseurl }}/donate).
 
 ## Installation
 
@@ -53,4 +53,4 @@ The initial version supports only two languages:
 
 ## License
 
-Flag Me is released under the [GPLv3 License](http://www.gnu.org/licenses/gpl-3.0.en.html).
+Flag Me is released under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).

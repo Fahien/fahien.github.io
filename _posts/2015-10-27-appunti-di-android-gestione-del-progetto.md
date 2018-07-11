@@ -5,12 +5,12 @@ category: Informatics
 tags: android, mobile, sdk 
 image: android.png
 ---
-Il progetto deve avere una struttura specifica per essere compilato e impacchettato correttamente dall'[Android Software Development Kit](http://developer.android.com/sdk/index.html).
+Il progetto deve avere una struttura specifica per essere compilato e impacchettato correttamente dall'[Android Software Development Kit](https://developer.android.com/sdk/index.html).
 
 Al livello più alto c'è una suddivisione per moduli. Tra i principali:
 
 * **Android application modules**: contengono codice, risorse e impostazioni. Sono questi ad essere trasformati nel file *apk* che viene successivamente installato nei vari dispositivi;
-* **test modules**: contengono i test dell'applicazione (in genere il modulo androidTest contiene i test [Junit](http://junit.org);
+* **test modules**: contengono i test dell'applicazione (in genere il modulo androidTest contiene i test [Junit](https://junit.org);
 * **library modules**: contengono codice condiviso da altri progetti. Anche questi durante la compilazione vengono inseriti nell'*apk*;
 
 ## Files del progetto
@@ -35,4 +35,4 @@ Al livello più alto c'è una suddivisione per moduli. Tra i principali:
 * `.gitignore/`: Specifica i file che devono essere ignorati da [git](https://git-scm.com)
 * `app.iml/`: Modulo *IntelliJ IDEA*
 * `build.gradle`: Proprietà customizzabili per il sistema di *build*
-* `proguard-rules.pro`: File di impostazioni [ProGuard](http://proguard.sourceforge.net)
+* `proguard-rules.pro`: File di impostazioni [ProGuard](https://proguard.sourceforge.net)

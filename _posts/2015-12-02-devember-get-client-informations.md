@@ -5,7 +5,7 @@ category: Informatics
 tags: c, devember, server, socket
 image: devemberisnow.png
 ---
-[Previously](http://www.fahien.me/2015/12/01/devember-daytime), the Daytime Server invoked the _accept_ function in this way:
+[Previously]({{ site.baseurl }}/2015/12/01/devember-daytime), the Daytime Server invoked the _accept_ function in this way:
 
 ```c
 accept(listenfd, (struct sockaddr *) NULL, NULL);

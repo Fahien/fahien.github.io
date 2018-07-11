@@ -7,7 +7,7 @@ image: binary-world.jpg
 ---
 Benvenuto! Questo è il primo articolo. Contiene delle informazioni generiche e *fortunatamente* non è scritto in prima persona.
 
-Il sottoscritto è Antonio Caggiano, al momento della stesura, un laureando in Informatica all’[Università degli Studi di Salerno](http://web.unisa.it/home). Qualora non se ne abbia una chiara idea, l’informatico è per tutti gli aspetti uno scienziato, il cui focus è la teoria. Per comprenderne appieno il dominio, basti pensare che il suo principale elemento è l’**informazione** che, attraverso gli algoritmi e la matematica, viene manipolata e trasferita. Come [Neo](https://it.wikipedia.org/wiki/Neo_%28personaggio%29) in *The Matrix*, legge codice, conosce vari linguaggi di programmazione, progetta e sviluppa software.
+Il sottoscritto è Antonio Caggiano, al momento della stesura, un laureando in Informatica all’[Università degli Studi di Salerno](https://web.unisa.it/home). Qualora non se ne abbia una chiara idea, l’informatico è per tutti gli aspetti uno scienziato, il cui focus è la teoria. Per comprenderne appieno il dominio, basti pensare che il suo principale elemento è l’**informazione** che, attraverso gli algoritmi e la matematica, viene manipolata e trasferita. Come [Neo](https://it.wikipedia.org/wiki/Neo_%28personaggio%29) in *The Matrix*, legge codice, conosce vari linguaggi di programmazione, progetta e sviluppa software.
 
 <div id="c-container">
 <canvas id="c" height="158" width="660"></canvas>

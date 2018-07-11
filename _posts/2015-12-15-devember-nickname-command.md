@@ -5,7 +5,7 @@ category: Informatics
 tags: c, chat, command, nickname, server, socket 
 image: devemberisnow.png
 ---
-After transforming the server in a [chat room](http://www.fahien.me/2015/12/14/devember-improved-echo-server), I thought it was a good idea to add a command to set your nickname. So, when a client connects, the server expects to receive a message starting with `/nickname` followed by the _actual nickname_:
+After transforming the server in a [chat room]({{ site.baseurl }}/2015/12/14/devember-improved-echo-server), I thought it was a good idea to add a command to set your nickname. So, when a client connects, the server expects to receive a message starting with `/nickname` followed by the _actual nickname_:
 
 ```c
 #define MAXNICK 32

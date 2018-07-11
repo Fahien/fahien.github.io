@@ -6,12 +6,12 @@ tags: game jam, libgdx, matematica, post mortem, western lion
 image: postfeatured.png
 ---
 
-[Western Lion](http://www.fahien.me/western-lion/) è una collezione di due minigiochi in tema **spaghetti western** sviluppata durante la [Spaghetti Western Jam](http://itch.io/jam/spaghetti-western-jam) della durata di un mese organizzata da [IndieVault.it](http://www.indievault.it/). In uno si vestono i panni di *Nessuno*, intento a colpire dei boccali prima che si frantumino sul pavimento, nell’altro quelli di *Jack*, disturbato da una mosca mentre aspetta alla stazione.
+[Western Lion]({{ site.baseurl }}/western-lion/) è una collezione di due minigiochi in tema **spaghetti western** sviluppata durante la [Spaghetti Western Jam](https://itch.io/jam/spaghetti-western-jam) della durata di un mese organizzata da [IndieVault.it](https://www.indievault.it/). In uno si vestono i panni di *Nessuno*, intento a colpire dei boccali prima che si frantumino sul pavimento, nell’altro quelli di *Jack*, disturbato da una mosca mentre aspetta alla stazione.
 
 
 ## Preparativi
 
-L’idea dei **minigiochi** è nata dal modo frammentario in cui tornavano alla mente le scene dei film spaghetti western visti durante gli anni. Comprendere il modo in cui realizzare questa idea è stato il passo successivo. Il framework [libGDX](http://libgdx.badlogicgames.com/) è stato sicuramente una buona scelta per quanto riguarda la velocità di prototipazione e la portabilità che garantisce. Il **discorso grafico** è stato ridotto ai minimi termini poiché, non essendo il sottoscritto un grafico, si è optato per una palette ad 8 colori, quella della simpaticissima fantasy console [PICO-8](http://www.lexaloffle.com/pico-8.php), e una risoluzione a 160×90 pixels. Per quanto riguarda l’**audio**, la raccolta delle risorse si è risolta in semplici ricerce su [Freesound.org](http://freesound.org/).
+L’idea dei **minigiochi** è nata dal modo frammentario in cui tornavano alla mente le scene dei film spaghetti western visti durante gli anni. Comprendere il modo in cui realizzare questa idea è stato il passo successivo. Il framework [libGDX](https://libgdx.badlogicgames.com/) è stato sicuramente una buona scelta per quanto riguarda la velocità di prototipazione e la portabilità che garantisce. Il **discorso grafico** è stato ridotto ai minimi termini poiché, non essendo il sottoscritto un grafico, si è optato per una palette ad 8 colori, quella della simpaticissima fantasy console [PICO-8](https://www.lexaloffle.com/pico-8.php), e una risoluzione a 160×90 pixels. Per quanto riguarda l’**audio**, la raccolta delle risorse si è risolta in semplici ricerce su [Freesound.org](https://freesound.org/).
 
 <div class="videowrapper"><iframe src="https://www.youtube.com/embed/D_tt83itYA8" frameborder="0" allowfullscreen></iframe></div>
 
@@ -27,9 +27,9 @@ In entrambi la chiave per vincere è la **prontezza di riflessi** del giocatore,
 
 Di seguito sono elencati gli strumenti utilizzati per lo sviluppo di Western Lion:
 
-* [Android Studio](http://developer.android.com/tools/studio/index.html), per la gestione del codice sorgente;
-* [The GNU Image Manipulation Program](http://www.gimp.org/), per la creazione dei contenuti grafici;
-* [Audacity](http://audacityteam.org/), per la modifica delle risorse audio.
+* [Android Studio](https://developer.android.com/tools/studio/index.html), per la gestione del codice sorgente;
+* [The GNU Image Manipulation Program](https://www.gimp.org/), per la creazione dei contenuti grafici;
+* [Audacity](https://audacityteam.org/), per la modifica delle risorse audio.
 
 Quantunque gli strumenti adatti semplifichino in maniera rilevante lo sviluppo di un progetto come questo, un’ottima base nel campo della **matematica** e della **fisica** è fondamentale per la realizzazione delle idee che si hanno in mente:
 

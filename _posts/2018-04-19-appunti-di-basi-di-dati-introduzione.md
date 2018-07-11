@@ -4,9 +4,9 @@ title: Appunti di Basi di Dati&#58; Introduzione
 category: Informatics
 tags: database, dbms, data model
 image: database.jpg
-excerpt: Questo articolo presenta un ristretto vademecum di nozioni introduttive utili per il corso d’Informatica di <a href="http://www.fahien.me/appunti-di-basi-di-dati">Basi di Dati</a>.
+excerpt: Questo articolo presenta un ristretto vademecum di nozioni introduttive utili per il corso d’Informatica di <a href="{{ site.baseurl }}/appunti-di-basi-di-dati">Basi di Dati</a>.
 ---
-Questo articolo presenta un ristretto vademecum di nozioni introduttive utili per il corso d’Informatica di [Basi Dati](http://www.fahien.me/appunti-di-basi-di-dati).
+Questo articolo presenta un ristretto vademecum di nozioni introduttive utili per il corso d’Informatica di [Basi Dati]({{ site.baseurl }}/appunti-di-basi-di-dati).
 
 ## Sistema Informatico
 

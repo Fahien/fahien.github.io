@@ -5,7 +5,7 @@ category: Informatics
 tags: android, mobile, widget
 image: android.png
 ---
-Il [Widget](http://developer.android.com/guide/topics/ui/controls.html), chiamato anche _input control_, è una componente interattiva dell’interfaccia utente. L’utilizzo è molto semplice: basta aggiungere l’elemento che si desidera al layout XML o _programmaticamente_. Android ne fornisce un’ampia varietà, eccone una lista dei più comuni:
+Il [Widget](https://developer.android.com/guide/topics/ui/controls.html), chiamato anche _input control_, è una componente interattiva dell’interfaccia utente. L’utilizzo è molto semplice: basta aggiungere l’elemento che si desidera al layout XML o _programmaticamente_. Android ne fornisce un’ampia varietà, eccone una lista dei più comuni:
 
 *   **Button**: un pulsante cliccabile;
 *   **Text field**: un campo modificabile per il testo;

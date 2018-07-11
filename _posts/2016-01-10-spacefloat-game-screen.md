@@ -21,7 +21,7 @@ public GameScreen() {
 }
 ```
 
-Like all [SpaceFloat Screens](http://www.fahien.me/2015/12/29/spacefloat-screen-management/), when the **show method** is called, all the Game Screen dependencies have already been initialized, so it can inject the last dependencies into the systems, add these systems to the Engine and finally create the HUD.
+Like all [SpaceFloat Screens]({{ site.baseurl }}/2015/12/29/spacefloat-screen-management/), when the **show method** is called, all the Game Screen dependencies have already been initialized, so it can inject the last dependencies into the systems, add these systems to the Engine and finally create the HUD.
 
 ```java
 @Override

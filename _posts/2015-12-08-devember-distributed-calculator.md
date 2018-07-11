@@ -7,7 +7,7 @@ image: devemberisnow.png
 ---
 It's been a week since I started my devlogs for Devember and finally today I've done something more complex than previous exercises: a **distributed calculator**.
 
-The communication takes place via [UDP](http://www.fahien.me/2015/12/07/devember-udp-echo-client/), so I've used the _sendto_ and _recvfrom_ functions. Managing the client input has been a bit cumbersome but eventually I did:
+The communication takes place via [UDP]({{ site.baseurl }}/2015/12/07/devember-udp-echo-client/), so I've used the _sendto_ and _recvfrom_ functions. Managing the client input has been a bit cumbersome but eventually I did:
 
 ```c
 char buff[MAXLINE];

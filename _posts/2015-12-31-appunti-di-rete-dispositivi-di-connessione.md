@@ -17,7 +17,7 @@ Per connettere più reti fra loro, vengono usati dei [dispositivi di connessione
 
 **Ripetitori e Hub attivi**: un segnale che viaggia all'interno di un cavo subisce un'attenuazione nel tempo che mette a rischio l'integrità dei dati. I ripetitori ricevono il segnale prima che si deteriori, lo **rigenerano** e lo inoltrano. Gli hub attivi sono semplicemente ripetitori a più porte, utili in una [topologia a stella](https://en.wikipedia.org/wiki/Star_network).
 
-**Bridge**: un bridge, oltre ad avere le stesse capacità di un ripetitore, può controllare gli indirizzi della sorgente e della destinazione contenuti in un frame e decidere su quale porta inoltrarlo attraverso una [tabella di inoltro](https://en.wikipedia.org/wiki/Forwarding_information_base). In un [bridge trasparente](http://docwiki.cisco.com/wiki/Transparent_Bridging), la tabella di inoltro è costruita automaticamente in base al traffico sulla rete.
+**Bridge**: un bridge, oltre ad avere le stesse capacità di un ripetitore, può controllare gli indirizzi della sorgente e della destinazione contenuti in un frame e decidere su quale porta inoltrarlo attraverso una [tabella di inoltro](https://en.wikipedia.org/wiki/Forwarding_information_base). In un [bridge trasparente](https://docwiki.cisco.com/wiki/Transparent_Bridging), la tabella di inoltro è costruita automaticamente in base al traffico sulla rete.
 
 **Router**: un [router](https://en.wikipedia.org/wiki/Router_%28computing%29), operando nello strato di rete, può inoltrare i pacchetti in base agli indirizzi logici. Vengono utilizzati normalmente per connettere reti LAN o WAN alla rete Internet.
 
