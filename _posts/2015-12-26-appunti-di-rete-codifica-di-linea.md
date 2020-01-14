@@ -19,16 +19,16 @@ dove _B_ è la larghezza di banda ed _L_ è il numero di livelli del segnale usa
 
 Lo schema **NRZ** (Non-Return-to-Zero) rappresenta `1` con un voltaggio positivo e `0` con il voltaggio nullo. È chiamato NRZ poiché il segnale non ritorna a zero durante la rappresentazione di ogni bit.
 
-![Codifica NRZ unipolare]({{ site.github.url }}/static/images/nrzunipolar.png)
+![Codifica NRZ unipolare]({{ site.baseurl }}/static/images/nrzunipolar.png)
 
 ## Schema polare NRZ
 
 Nella codifica polare, vengono utilizzati due livelli di voltaggio: positivo e negativo. Nella versione **NRZ-L** (Level), un voltaggio positivo rappresenta `0` e un voltaggio negativo rappresenta `1`. Nella versione **NRZ-I** (Invert), il bit è determinato da un cambio del livello del voltaggio: assenza di cambiamento significa `0`, cambiamento rappresenta `1`.
 
-![Codifiche polari NRZ-L e NRZ-I]({{ site.github.url }}/static/images/nrzpolar.png)
+![Codifiche polari NRZ-L e NRZ-I]({{ site.baseurl }}/static/images/nrzpolar.png)
 
 ## Codifica bipolare AMI
 
 La codifica **AMI** (Alternate Mark Inversion) rappresenta `0` con voltaggio nullo e `1` con voltaggi positivi e negativi che si alternano.
 
-![Codifica polare AMI]({{ site.github.url }}/static/images/ami.png)
+![Codifica polare AMI]({{ site.baseurl }}/static/images/ami.png)

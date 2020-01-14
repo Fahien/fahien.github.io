@@ -9,9 +9,9 @@ During the preparations for the [libGDXJam](https://itch.io/jam/libgdxjam), the 
 
 The models shown in the screenshots are made by pasto.
 
-![Earth]({{ site.github.url }}/static/images/proto-earth.png)
+![Earth]({{ site.baseurl }}/static/images/proto-earth.png)
 
-![Spaceship]({{ site.github.url }}/static/images/proto-ship.png)
+![Spaceship]({{ site.baseurl }}/static/images/proto-ship.png)
 
 ## License
 

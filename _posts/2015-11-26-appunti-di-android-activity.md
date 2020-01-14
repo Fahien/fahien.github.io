@@ -15,7 +15,7 @@ Un’Activity può essere in tre stati:
 
 <figure markdown="1" class="text-center">
 
-[![Activity Lifecycle]({{ site.github.url }}/static/images/activitylifecycle.png)]({{ site.github.url }}/static/images/activitylifecycle.png)
+[![Activity Lifecycle]({{ site.baseurl }}/static/images/activitylifecycle.png)]({{ site.baseurl }}/static/images/activitylifecycle.png)
 
 </figure>
 

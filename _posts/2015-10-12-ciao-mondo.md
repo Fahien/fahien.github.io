@@ -22,4 +22,4 @@ Tra i **motivi** che possono portare all’apertura di un blog, tra cui questo, 
 Comunque, si vuole ben sperare che i contenuti siano abbastanza interessanti da non *tediare* il lettore e non rendere questo esperimento fine a sé stesso o a nulla.
 
 Per i contatti, si rimanda a [twitter](https://twitter.com/Fahien) o [linkedin](https://www.linkedin.com/in/antoniocaggiano).
-<script type="text/javascript" src="{{ site.github.url }}/static/js/rain.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/static/js/rain.js"></script>

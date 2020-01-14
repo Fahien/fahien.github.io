@@ -55,7 +55,7 @@ Come si inquadra nel mondo di Linux?**
 
 Visita il sito di [Carmine De Rosa](https://dslak.it/)!
 
-<div id="fb-root"><script src="{{ site.github.url }}/static/js/fbvideo.js" type="text/javascript"></script>
+<div id="fb-root"><script src="{{ site.baseurl }}/static/js/fbvideo.js" type="text/javascript"></script>
 <script type="text/javascript">// <![CDATA[
 fbvideo();
 // ]]></script></div>

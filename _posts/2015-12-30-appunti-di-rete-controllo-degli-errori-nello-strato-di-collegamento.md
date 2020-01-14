@@ -9,7 +9,7 @@ image: binary-world.jpg
 
 **Go-back-N ARQ**: Il protocollo [Go-back-N ARQ](https://en.wikipedia.org/wiki/Go-Back-N_ARQ) spedisce più di un frame, mantenendo una copia per ognuno nel caso sia necessario rispedirli, prima di riceverne riscontro. Utilizza _m_ bit per il campo del numero di sequenza, per cui variano nell'intervallo [0, 2ᵐ - 1]. Il mittente mantiene una **finestra scorrevole** su questi numeri di ampiezza Sₗₑₙ = 2ᵐ - 1, con due indici: Sₚ per indicare il primo frame ancora in attesa di riscontro e Sₙ per indicare il prossimo frame da spedire. Il destinatario ha invece una finestra di grandezza `1`, poiché a lui interessa un solo frame, che rispetti l'ordine, mentre tutti gli altri vengono scartati.
 
-![Finestra scorrevole del mittente per il Go-back-N ARQ con m = 3]({{ site.github.url }}/static/images/go-back-n-arq.png)
+![Finestra scorrevole del mittente per il Go-back-N ARQ con m = 3]({{ site.baseurl }}/static/images/go-back-n-arq.png)
 
 *Finestra scorrevole del mittente per il Go-back-N ARQ con m = 3*
 
