@@ -129,6 +129,24 @@ blockquote {
   color: $gray;
 }
 
+.entry{
+  margin: 16px 0;
+}
+
+.button {
+  display: inline-block;
+  margin: 4px 4px 4px 0px;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+  line-height: 34px;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 24px;
+  &:hover, &:active {
+    background-color: #f1f3f4
+  }
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -265,7 +283,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    color: #1a73e8;
     font-size: 15px;
   }
 }
