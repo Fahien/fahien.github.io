@@ -14,20 +14,19 @@
 	</head>
 
 	<body>
-	<div class="wrapper-masthead">
+	<header class="wrapper-masthead">
 		<div class="container">
-		<header class="masthead clearfix">
-			<a href="{{ site.baseurl }}/" class="site-avatar">
-			<img src="{{ site.baseurl }}/static/images/small-fahien-bugart.png" />
-			</a>
-			<div class="site-info">
-			<p class="site-description">{{ site.description }}</p>
+			<div class="masthead clearfix">
+				<a href="{{ site.baseurl }}/" class="site-avatar">
+				<img src="{{ site.baseurl }}/static/images/small-fahien-bugart.png" />
+				</a>
+				<div class="site-info">
+				<p class="site-description">{{ site.description }}</p>
+				</div>
+				{% include nav.html %}
 			</div>
-
-			{% include nav.html %}
-			</header>
 		</div>
-	</div>
+	</header>
 
 	<div id="main" role="main" class="container">
 		{{ content }}
